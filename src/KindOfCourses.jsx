@@ -1,15 +1,7 @@
-import Header from './Header.jsx'
+import { Link } from 'react-router-dom'
 
 function KindOfCourses() {
-    let avalilableCourses = [
-        "Python - Begin",
-        "Python - Middle",
-        "Python - Advanced",
-        "FastAPI - Begin"
-    ]
     return (
-        <>
-        <Header/>
         <main>
             <h1>Kind of Courses</h1><br/>
             <h2>
@@ -18,9 +10,8 @@ function KindOfCourses() {
                 Python - Advanced<br/>
                 FastAPI - Begin<br/>
             </h2>
-            <Link to="/"><a href="" id="go-menu-btn">Return to main page</a></Link>
+            <a href="" id="go-menu-btn"><Link to="/">Return to main page</Link></a>
         </main>
-        </>
     );
 }
 
