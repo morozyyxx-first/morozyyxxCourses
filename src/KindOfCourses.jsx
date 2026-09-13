@@ -18,7 +18,7 @@ function KindOfCourses() {
                 Python - Advanced<br/>
                 FastAPI - Begin<br/>
             </h2>
-            <a href="/index.html" id="go-menu-btn">Return to main page</a>
+            <Link to="/"><a href="" id="go-menu-btn">Return to main page</a></Link>
         </main>
         </>
     );

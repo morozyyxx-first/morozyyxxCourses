@@ -11,9 +11,9 @@ function ForWho() {
                     - For young creators curious about tech, computers, and solving cool puzzles.<br/><br/>
                     - For parents looking to turn screen time into a productive, future-proof hobby.<br/><br/>
                 </div>
-                <a href="" id="go-to-ava-courses">
+                <Link to="/kind-of-courses"><a href="" id="go-to-ava-courses">
                     Look up for available courses {"=>"}
-                </a>
+                </a></Link>
             </main>
         </>
     );
