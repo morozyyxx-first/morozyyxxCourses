@@ -8,8 +8,6 @@ function KindOfCourses() {
         "FastAPI - Begin"
     ]
     return (
-        <>
-        <Header/>
         <main>
             <h1>Kind of Courses</h1><br/>
             <h2>
@@ -20,7 +18,6 @@ function KindOfCourses() {
             </h2>
             <a href="/index.html" id="go-menu-btn">Return to main page</a>
         </main>
-        </>
     );
 }
 
