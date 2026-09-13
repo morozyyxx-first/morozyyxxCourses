@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background: #0943cb;
+  font-family: "Fira Code", monospace;
+}
+
+/* HEADER SECTION (HEADER) */
+
+header {
+  display: flex;
+  background: #6dd20f;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border: 3px solid black;
+}
+
+header img {
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 10px;
+}
+
+#main-name {
+  margin-right: auto;
+}
+
+#header-buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-btn {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgb(222, 233, 7);
+  color: rgb(0, 0, 0);
+  font-family: "Fira Code", monospace;
+  margin-right: 5px;
+  transition: ease-in-out 0.3s all;
+}
+
+.header-btn:hover {
+  background: rgb(7, 233, 214);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#contact-btn {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgb(222, 233, 7);
+  color: rgb(0, 0, 0);
+  font-family: "Fira Code", monospace;
+  margin-right: 10%;
+  margin-left: auto;
+  transition: ease-in-out 0.3s all;
+}
+
+#contact-btn:hover {
+  background: rgb(7, 233, 214);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+/* MAIN SECTION (CONTENT) */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-top: 7%;
+  align-items: center;
+  text-align: center;
+}
+
+main img {
+  margin: 20px;
+}
+
+main h1 {
+  color: rgb(222, 233, 7); 
+}
+
+main h2 {
+  margin-top: 20px;
+  color: white;
+}
+
+main a {
+  color: black;
+  text-decoration: none;
+}
+
+#apply-btn {
+  font-family: "Fira Code", monospace;
+  padding: 15px;
+  background: #6dd20f7a;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: ease-in-out 0.3s all;
+}
+
+#apply-btn:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  background: #6dd20fd9;
+  color: black;
+  border-color: black;
+}
+
+#wiif-h1 {
+  margin-top: 80px;
+}
+
+#kb-h1 {
+  margin-top: 80px;
+}
+
+#key-benefits-div {
+  display: flex;
+}
+
+#key-benefits-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.key-benefits-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5px;
+  background: rgba(0, 255, 179, 0.402);
+  color: white;
+  width: 300px;
+  height: 150px;
+}
+
+#reserv-lbl {
+  margin-top: 80px;
+}
+
+
+/* FOR WHO SECTION  */
+
+#forwhoresponses {
+  margin: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+#go-to-ava-courses {
+  font-family: "Fira Code", monospace;
+  padding: 15px;
+  background: #6dd20f7a;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: ease-in-out 0.3s all;
+}
+
+#go-to-ava-courses:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  background: #6dd20fd9;
+  color: black;
+  border-color: black;
+}
+
+
+/* KIND OF COURSES SECTION */
+
+#go-menu-btn {
+  margin-top: 10px;
+  font-family: "Fira Code", monospace;
+  padding: 15px;
+  background: #6dd20f7a;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: ease-in-out 0.3s all;
+}
+
+#go-menu-btn:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  background: #6dd20fd9;
+  color: black;
+  border-color: black;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 40px;
+  color: rgb(121, 121, 121);
+  font-size: 10px;
+}
