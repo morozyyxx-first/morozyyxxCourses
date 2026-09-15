@@ -6,7 +6,7 @@
 
 body {
   background: #0943cb;
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 /* HEADER SECTION (HEADER) */
@@ -52,7 +52,7 @@ header a {
   border-radius: 10px;
   background: rgb(222, 233, 7);
   color: rgb(0, 0, 0);
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
   margin-right: 5px;
   transition: ease-in-out 0.3s all;
 }
@@ -69,7 +69,7 @@ header a {
   border-radius: 10px;
   background: rgb(222, 233, 7);
   color: rgb(0, 0, 0);
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
   margin-right: 10%;
   margin-left: auto;
   transition: ease-in-out 0.3s all;
@@ -112,7 +112,7 @@ main a {
 }
 
 #apply-btn {
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
   padding: 15px;
   background: #6dd20f7a;
   border: 1px solid black;
@@ -174,7 +174,7 @@ main a {
 }
 
 #go-to-ava-courses {
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
   padding: 15px;
   background: #6dd20f7a;
   border: 1px solid black;
@@ -195,7 +195,7 @@ main a {
 
 #go-menu-btn {
   margin-top: 10px;
-  font-family: "Fira Code", monospace;
+  font-family: "JetBrains Mono", monospace;
   padding: 15px;
   background: #6dd20f7a;
   border: 1px solid black;
